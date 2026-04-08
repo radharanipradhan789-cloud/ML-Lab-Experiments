@@ -42,3 +42,10 @@ plt.title("Linear Regression Best Fit Line")
 plt.legend()
 plt.show()
 
+#Output
+Regression Line: ŷ = 2.2 + 0.6 x
+MSE: 0.48
+MAE: 0.64
+RMSE: 0.693
+R²: 0.6
+Adjusted R²: 0.467
