@@ -34,3 +34,10 @@ print(f"Margin: {margin:.4f}")
 # Prediction for the new point
 prediction = clf.predict(new_point)
 print(f"Prediction for {new_point}: {prediction}")
+
+#Output
+Optimal weights (w): [-6.4000e-04 -9.9968e-01]
+Optimal bias (b): 2.0007466666666667
+Optimal equation: -0.00*x1 + -1.00*x2 + 2.00 = 0
+Margin: 2.0006
+Prediction for [[2 2]]: [1]
