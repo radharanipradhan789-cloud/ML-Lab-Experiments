@@ -93,5 +93,20 @@ plt.ylabel('Predicted Y')
 plt.title('Predicted vs Actual (Multivariate)')
 plt.legend()
 plt.grid(True)
-
 plt.show()
+
+#Output
+Regression Coefficients (Intercept and Slope for Y1 and Y2):
+[[-3.55271368e-15  1.00000000e+00]
+ [ 2.00000000e+00  2.00000000e+00]]
+
+Error Metrics for Y1:
+MSE: 1.262177448353619e-29, MAE: 3.552713678800501e-15, RMSE: 3.552713678800501e-15, R2: 1.0, Adj R2: 1.0
+
+Error Metrics for Y2:
+MSE: 1.9721522630525295e-29, MAE: 4.440892098500626e-15, RMSE: 4.440892098500626e-15, R2: 1.0, Adj R2: 1.0
+
+Predicted vs Actual Data:
+x1=1 -> Actual Y1=2, Predicted Y1=2.000 | Actual Y2=3, Predicted Y2=3.000
+x1=2 -> Actual Y1=4, Predicted Y1=4.000 | Actual Y2=5, Predicted Y2=5.000
+x1=3 -> Actual Y1=6, Predicted Y1=6.000 | Actual Y2=7, Predicted Y2=7.000
