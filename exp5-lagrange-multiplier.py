@@ -27,8 +27,11 @@ f_x = np.dot(w, x)
 
 # Predicted class: sign of f(x)
 y_pred = np.sign(f_x)
-
-# Outputs
 print(f"Weight vector (w): {w}")
 print(f"Decision value f(x): {f_x:.4f}")
 print(f"Predicted Class: {int(y_pred)}")
+
+#Output
+Weight vector (w): [ 1 -3 -2]
+Decision value f(x): -3.0000
+Predicted Class: -1
