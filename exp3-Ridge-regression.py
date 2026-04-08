@@ -77,6 +77,7 @@ plt.xlabel("Actual y1")
 plt.ylabel("Predicted y1")
 plt.legend()
 plt.show()
+
 #Output
 Ridge coefficients for y1: [-4.44089210e-16  6.66666667e-01]
 Ridge coefficients for y2: [-8.88178420e-16  1.33333333e+00]
