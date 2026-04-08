@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # ==========================================
-# 1. DEFINE DATASET (Page 1)
+# 1. DEFINE DATASET 
 # ==========================================
 # Design matrix X
 X = np.array([
@@ -33,7 +33,7 @@ y1_pred = X @ beta_y1
 y2_pred = X @ beta_y2
 
 # ==========================================
-# 2. VISUALIZATION (Page 2)
+# 2. VISUALIZATION 
 # ==========================================
 
 # Y1 Actual vs Predicted
@@ -63,7 +63,7 @@ plt.ylabel("y2")
 plt.show()
 
 # ==========================================
-# 3. PREDICTED VS ACTUAL & IDEAL LINE (Page 3)
+# 3. PREDICTED VS ACTUAL & IDEAL LINE 
 # ==========================================
 
 # Predicted vs Actual (y1)
@@ -77,3 +77,6 @@ plt.xlabel("Actual y1")
 plt.ylabel("Predicted y1")
 plt.legend()
 plt.show()
+#Output
+Ridge coefficients for y1: [-4.44089210e-16  6.66666667e-01]
+Ridge coefficients for y2: [-8.88178420e-16  1.33333333e+00]
